@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity4">
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="233dp"
+        android:layout_height="396dp"
+        android:background="#FBFAF2"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:paddingStart="15dp"
+            android:paddingTop="15dp"
+            android:text="@string/quantit_du_ciment"
+            android:textAlignment="textStart"
+            android:textColor="#090909"
+            android:textSize="16sp"
+            tools:ignore="RtlSymmetry" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:paddingLeft="15dp"
+            android:paddingTop="15dp"
+            android:text="@string/Masse_volumique_béton"
+            android:textColor="#090909"
+            android:textSize="16sp"
+            tools:ignore="RtlHardcoded,RtlSymmetry" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:paddingLeft="15dp"
+            android:paddingTop="15dp"
+            android:text="@string/volume_b_tonner"
+            android:textColor="#090909"
+            android:textSize="16sp"
+            tools:ignore="RtlHardcoded,RtlSymmetry" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:paddingLeft="15dp"
+            android:paddingTop="15dp"
+            android:text="@string/eau_de_g_chage"
+            android:textColor="#090909"
+            android:textSize="16sp"
+            tools:ignore="RtlHardcoded" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:paddingLeft="15dp"
+            android:paddingTop="15dp"
+            android:text="@string/fraction_du_sable"
+            android:textColor="#090909"
+            android:textSize="16sp"
+            tools:ignore="RtlHardcoded" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:paddingLeft="15dp"
+            android:paddingTop="15dp"
+            android:text="@string/fraction_du_gravette_g1"
+            android:textColor="#090909"
+            android:textSize="16sp"
+            tools:ignore="RtlSymmetry" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:paddingLeft="15dp"
+            android:paddingTop="15dp"
+            android:text="@string/fraction_du_gravette_g2"
+            android:textColor="#090909"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:paddingStart="15dp"
+            android:paddingTop="15dp"
+            android:text="@string/coefficient_a_mat_riaux_utilis_s"
+            android:textColor="#090909"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="117dp"
+        android:layout_height="396dp"
+        android:background="#F5F6F8"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout5"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+        tools:layout_editor_absoluteX="233dp">
+
+        <EditText
+            android:id="@+id/editTextTextPersonName"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:ems="10"
+            android:hint="@string/ex_300"
+            android:hyphenationFrequency="normal"
+            android:inputType="numberDecimal"
+            android:paddingTop="15dp"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:autofillHints="" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName3"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:ems="10"
+            android:hint="@string/ex_2500"
+            android:hyphenationFrequency="normal"
+            android:inputType="numberDecimal"
+            android:paddingTop="15dp"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:autofillHints="" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName4"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:ems="10"
+            android:hint="@string/ex_1"
+            android:inputType="numberDecimal"
+            android:paddingTop="15dp"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:autofillHints="" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName7"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:ems="10"
+            android:hint="@string/ex_150"
+            android:inputType="numberDecimal"
+            android:paddingTop="15dp"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:autofillHints="" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="#F5F6F8"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/editTextTextPersonName8"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="@string/ex_0"
+                android:inputType="numberDecimal"
+                android:paddingTop="15dp"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:autofillHints="" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName9"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="@string/ex_5"
+                android:inputType="textEmailAddress"
+                android:paddingTop="15dp"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:autofillHints="" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="#F5F6F8"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/editTextTextPersonName11"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="@string/exe_5"
+                android:inputType="numberDecimal"
+                android:paddingTop="15dp"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:autofillHints="" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName12"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="@string/ex_10"
+                android:inputType="numberDecimal"
+                android:paddingTop="15dp"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:autofillHints="" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="#F5F6F8"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/editTextTextPersonName13"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="@string/exe_10"
+                android:inputType="numberDecimal"
+                android:paddingTop="15dp"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:autofillHints="" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName14"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="@string/ex_25"
+                android:inputType="numberDecimal"
+                android:paddingTop="15dp"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:autofillHints="" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/editTextTextPersonName15"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:ems="10"
+            android:hint="@string/ex_14"
+            android:inputType="textPersonName|numberDecimal"
+            android:paddingTop="15dp"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:autofillHints="" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="64dp"
+        android:layout_height="396dp"
+        android:background="#F0F3F6"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:paddingLeft="4dp"
+            android:paddingTop="15dp"
+            android:text="@string/kg_m3"
+            android:textColor="#2196F3"
+            android:textSize="16sp"
+            tools:ignore="RtlHardcoded" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:paddingLeft="4dp"
+            android:paddingTop="15dp"
+            android:text="@string/a_kg_m3"
+            android:textColor="#2196F3"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:paddingLeft="4dp"
+            android:paddingTop="15dp"
+            android:text="@string/m3"
+            android:textColor="#2196F3"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:paddingLeft="4dp"
+            android:paddingTop="15dp"
+            android:text="@string/l_m3"
+            android:textColor="#2196F3"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:paddingTop="15dp" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:paddingTop="15dp" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:paddingTop="15dp" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:paddingTop="15dp" />
+    </LinearLayout>
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar3"
+        android:layout_width="415dp"
+        android:layout_height="64dp"
+        android:background="#DCE3E9"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="@style/Theme.Dsrcad"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:logo="@drawable/logo_ds1"
+        app:logoDescription="Dsrcad"
+        app:navigationIcon="@android:drawable/ic_menu_sort_by_size"
+        app:popupTheme="?attr/bottomNavigationStyle" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="416dp"
+        android:layout_height="wrap_content"
+        android:background="#F0F3F6"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="63dp">
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:paddingTop="20dp"
+            android:text="@string/formulation_de_b_ton"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="#444445"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_weight="1"
+            android:text="@string/formule_de_bolomey"
+            android:textAlignment="center"
+            android:textColor="#067C0B" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:background="#FBDFDD"
+            android:text="@string/avant_de_lancer_le_calcul_veuillez_remplir_tous_les_champs_et_cliquer_sur_le_bouton_quot_calculer_quot"
+            android:textAlignment="center"
+            android:textColor="#2C0300" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="420dp"
+        android:layout_height="99dp"
+        android:background="#F0F3F6"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout4"
+        tools:layout_editor_absoluteX="-3dp">
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:text="@string/a_10_pour_tout_venant_a_14_concass_a_12_m_lange"
+            android:textColor="#E91E63" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:backgroundTint="#49E64F"
+            android:insetLeft="10dp"
+            android:insetTop="5dp"
+            android:insetRight="10dp"
+            android:text="@string/calculer"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="412dp"
+        android:layout_height="45dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="688dp">
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
